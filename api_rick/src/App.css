@@ -1,0 +1,75 @@
+body {
+  margin: 45px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-character {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+  margin: auto; /* Centraliza horizontalmente */
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #e62117; /* Vermelho temático do Pokémon */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.species {
+  font-size: 1.2em;
+  color: #666;
+  margin: 10px 0;
+}
+
+.rick-image {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+  
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap:40px;
+  padding-top: 15px;
+}
+.botaoproximovoltar {
+  background-color: #50CF01;
+  color: #f0f0f0;
+  border: none;
+}
+ .barradepesquisa{
+  height: 11px;
+  margin-top:6px;
+} 
+.barradepesquisa::placeholder {
+  font-size: 9px; 
+  color: #646262; 
+  font-style: italic; 
+  font-family: sans-serif;
+  text-align: center;
+  line-height: normal;
+}
