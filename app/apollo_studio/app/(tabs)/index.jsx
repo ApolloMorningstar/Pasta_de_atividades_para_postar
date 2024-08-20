@@ -34,7 +34,7 @@ const App = () => {
         />
         <View style={styles.buttonContainer}>
         <Button title= '+'  onPress= {() => soma()} />
-        <Button title= '/'  onPress= {() => subtração()} />
+        <Button title= '-'  onPress= {() => subtração()} />
         <Button title= '/'  onPress= {() => divisão()} />
         <Button title= 'x'  onPress= {() => multiplicação()}/>
         </View>
